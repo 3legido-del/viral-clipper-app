@@ -1,0 +1,6 @@
+streamlit
+openai-whisper
+google-genai
+gTTS
+yt-dlp
+static-ffmpeg
