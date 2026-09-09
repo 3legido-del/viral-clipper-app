@@ -5,13 +5,11 @@ import time
 import subprocess
 import streamlit as st
 import whisper
-import static_ffmpeg
 import yt_dlp
 from google import genai
 from google.genai.errors import ServerError
 from gtts import gTTS
 
-static_ffmpeg.add_paths()
 
 API_KEY = st.secrets.get("GEMINI_API_KEY", os.environ.get("GEMINI_API_KEY", ""))
 OUTPUT_DIR = "dubbed_viral_clips"
